@@ -9,12 +9,11 @@
 }
 
 #container {
-    width: 100%; Height:3000px;
+    width: 100%; Height:2250px;
     display:flex; flex-wrap: wrap;  flex-direction: column;
     /*border: 1px solid black;*/
     justify-content:flex-start;
     align-content:center;
-    
 }
 
 
@@ -24,7 +23,7 @@
     flex-wrap: wrap;
     display:flex;
     justify-content: space-around;
-    width:85%; height: 18%;
+    width:85%; height: 540px;
    /* border: 1px solid black;*/
     overflow:auto;
 }
@@ -62,7 +61,7 @@
 #livros-publicados{
     /*border: 1px solid black;*/
     display:flex; flex-wrap:wrap; 
-    width: 85%; height: 11.6%;
+    width: 85%; height: 348px;
     padding:10px; padding-left:30px;
     overflow:auto;
 }
@@ -99,7 +98,7 @@
 
 #livros-destaque{
     display:flex; flex-wrap:wrap; flex-direction:column;S
-    width: 85%; height: 13%;
+    width: 85%; height: 390px;
     padding-top:30px;
     overflow:auto;
 }
@@ -197,17 +196,6 @@ text-align: justify;
 /*eventos*/
 #eventos{
 width:485px; height:295px;
-}
-.eve{
-    border: 1px solid black;
-width:475px; height:110px;
-margin:5px; margin-top: 10px;
-}
-.img-eve-ed{
-
-}
-.txt-eve-ed{
-
 }
 /* /eventos*/
 
