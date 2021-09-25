@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 #container {
     width: 100%; Height:2250px;
     display:flex; flex-wrap: wrap;  flex-direction: column;
@@ -41,7 +42,7 @@
 }
 .tumb:hover {
     box-shadow:2px 2px 20px rgb(117, 117, 238);
-    height: 202px;
+    height: 205px;
     left:1px; top:1px;
     
 }
@@ -97,7 +98,7 @@
 /* livros em destaque*/
 
 #livros-destaque{
-    display:flex; flex-wrap:wrap; flex-direction:column;S
+    display:flex; flex-wrap:wrap; flex-direction:column;
     width: 85%; height: 390px;
     padding-top:30px;
     overflow:auto;
@@ -120,7 +121,7 @@
 }
 .capa-livro-destaq:hover{
     box-shadow:2px 2px 15px rgb(117, 117, 238);
-    height: 94px;
+    height: 105px;
     left:1px; top:1px;
 }
 .livro-desc{
@@ -207,4 +208,39 @@ overflow:auto;
 
 }
 /* /editais*/
+
+
+
+
+/* Animações */
+
+html{
+    animation-name: fade;  
+    animation-duration: 0.5s;
+} 
+@keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
+
+.noticia{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        tranform: scale(2);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*Desenvolvido by Guilherme Ferreira */
 

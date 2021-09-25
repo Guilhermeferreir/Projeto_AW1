@@ -72,13 +72,13 @@ nav a:hover {
 
 .title strong {
     position: absolute;
-    width: 768px;
-    height: 212px;
+    width: 748px;
+    height: 200px;
     left: 407px;
     top: 309px;
     font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
+    font-weight: 800;
+    font-size: 52px;
     line-height: 84px;
     text-align: center;
     color: #6057CD;
@@ -87,7 +87,7 @@ nav a:hover {
 .Cont_MDA img {
     position: absolute;
     width: 589px;
-    height: 714px;
+    height: 414px;
     left: 913px;
     top: 511px;
 }
@@ -96,11 +96,11 @@ nav a:hover {
     position: absolute;
     width: 578px;
     height: 84px;
-    left: 160px;
+    left: 80px;
     top: 511px;
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 84px;
     text-align: center;
     color: #000000;
@@ -110,11 +110,11 @@ nav a:hover {
     position: absolute;
     width: 714px;
     height: 392px;
-    left: 92px;
+    left: 50px;
     top: 709px;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 25px;
     line-height: 56px;
     text-align: center;
     color: #000000;
