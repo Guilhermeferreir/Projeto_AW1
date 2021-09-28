@@ -4,4 +4,12 @@ Projeto AW1
 - Recria-lo com melhorias para que o usuário tenha facilidade e um bom desempenho ao usa-lo.
 
 
+## Tabela de Atualizações 
+
+
+| Data     | Descrição das Atividades | Observações |
+| -------- | ------------------------ | ----------- |
+| xxx     | xxxxxxx                   | xxxx        |
+
+
 
