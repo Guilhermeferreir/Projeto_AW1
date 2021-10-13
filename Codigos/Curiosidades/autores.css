@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+
+#destaque {
+    margin: 30px;
+}
+
+.logo {
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(117, 117, 238);
+}
+
+.logo:hover {
+    color: #666;
+}
+
+.seach {
+    float: right;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+
+nav li a {
+    color: #666;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(117, 117, 238);
+}
+
+.idiomas {
+    float: right;
+    display: flex;
+    margin-right: 20px;
+}
+
+.idiomas a {
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.idiomas a:hover {
+    color: rgb(117, 117, 238);
+}
+
+.title strong {
+    position: absolute;
+    width: 748px;
+    height: 200px;
+    left: 407px;
+    top: 309px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 84px;
+    text-align: center;
+    color: #6057CD;
+}
+
+.Cont_MDA img {
+    position: absolute;
+    width: 589px;
+    height: 414px;
+    left: 913px;
+    top: 511px;
+}
+
+.text_MDA strong {
+    position: absolute;
+    width: 578px;
+    height: 84px;
+    left: 80px;
+    top: 511px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 84px;
+    text-align: center;
+    color: #000000;
+}
+
+.text_MDA p {
+    position: absolute;
+    width: 714px;
+    height: 392px;
+    left: 50px;
+    top: 709px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+.Cont_CM img {
+    position: absolute;
+    width: 600px;
+    height: 758px;
+    left: 902px;
+    top: 1371px;
+}
+
+.text_CM strong {
+    position: absolute;
+    width: 525px;
+    height: 84px;
+    left: 187px;
+    top: 1371px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 84px;
+    text-align: center;
+    color: #000000;
+}
+
+.text_CM p {
+    position: absolute;
+    width: 714px;
+    height: 336px;
+    left: 86px;
+    top: 1578px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+.retornar a {
+    position: absolute;
+    width: 768px;
+    height: 212px;
+    left: 578px;
+    top: 2436px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #6057CD;
+    text-decoration: none;
+}
+
+.retornar a:hover {
+    color: #808080;
+}

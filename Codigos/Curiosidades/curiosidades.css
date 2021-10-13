@@ -1,0 +1,123 @@
+  @import url("https://fonts.googleapis.com/css2family=Poppins:wght@300;400;500;600;700&display=swap");
+  * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  
+  body {
+      line-height: 1.5;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .conteudo_autores img {
+      position: absolute;
+      width: 791px;
+      height: 776px;
+      left: 713px;
+      top: 80px;
+  }
+  
+  .text_autores strong {
+      /* AUTORES */
+      position: absolute;
+      width: 768px;
+      height: 212px;
+      left: -35px;
+      top: 149px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 84px;
+      text-align: center;
+      color: #000000;
+  }
+  
+  .text_autores p {
+      position: absolute;
+      width: 713px;
+      height: 328px;
+      left: -8px;
+      top: 317px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      color: #000000;
+  }
+  
+  .mais_autores a {
+      /* Ver mais */
+      position: absolute;
+      width: 672px;
+      height: 85px;
+      left: 13px;
+      top: 730px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 84px;
+      /* identical to box height */
+      text-align: center;
+      color: #6057CD;
+  }
+  
+  .conteudo_obras img {
+      position: absolute;
+      width: 706px;
+      height: 554px;
+      left: 798px;
+      top: 1127px;
+  }
+  
+  .text_obras strong {
+      position: absolute;
+      width: 768px;
+      height: 212px;
+      left: -8px;
+      top: 1083px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 84px;
+      text-align: center;
+      color: #000000;
+  }
+  
+  .text_obras p {
+      position: absolute;
+      width: 713px;
+      height: 192px;
+      left: 19px;
+      top: 1318px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      color: #000000;
+  }
+  
+  .mais_obras a {
+      position: absolute;
+      width: 672px;
+      height: 85px;
+      left: 33px;
+      top: 1614px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 84px;
+      /* identical to box height */
+      text-align: center;
+      color: #6057CD;
+  }
+  
+  .btn1 {
+      text-decoration: none;
+  }
+  
+  .btn1:hover {
+      color: #808080;
+  }
