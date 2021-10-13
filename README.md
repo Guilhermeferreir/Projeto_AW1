@@ -13,9 +13,9 @@
 ## Tabela de Atualizações 
 
 
-| Data     | Descrição das Atividades | Observações |
-| -------- | ------------------------ | ----------- |
-| xxx     | xxxxxxx                   | xxxx        |
+| Data       |       Descrição das Atividades      | Observações |
+| ---------- | ----------------------------------- | ----------- |
+| 13/10/2021 | Atualização da tela de curiosidades | xxxx        |
 
 
 
