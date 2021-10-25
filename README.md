@@ -17,6 +17,7 @@
 | ---------- | ----------------------------------- | ----------- |
 | 13/10/2021 |      Atualização da tela de curiosidades      | xxxx    |
 | 20/10/2021 | Adicionando a tela de videos sobre Literatura | xxxx    |
+| 25/10/2021 |        Criação da Galeria de fotos e vídeos   | xxxxx   |      
 
 
 
