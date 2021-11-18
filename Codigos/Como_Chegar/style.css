@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif; 
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 30px;
+}
+.logo{
+    font-size:40px;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(117, 117, 238);
+}
+.logo:hover{
+    color: #666;
+}
+.seach{
+    float: right;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+}
+
+nav{
+    display: flex;
+    position:fixed;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+
+nav li a {
+    color: #666;
+    font-size: 20px;
+    text-decoration: none;  
+}
+
+nav a:hover{
+    color: rgb(117, 117, 238);
+}
+
+.idiomas{
+    float: right;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.idiomas a{
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color:#000;
+}
+
+.idiomas a:hover{
+    color:rgb(117, 117, 238);
+}
+
+.conteudo_home{
+    text-align:center;
+    margin-top:100px;
+}
+.classH1{
+    position:relative; top:-50px;
+    font-size:90px;
+    
+    margin: 10px;
+    padding-top: 40px;
+}
+.classH2{
+    font-weight: 90;
+    position:relative; top:-20px;
+    font-size:35px;
+    color: rgb(117, 117, 238);
+}
+
+.entrar{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    background:rgb(103, 105, 223);
+    color:white;
+    border:none;
+    border-radius: 7px 7px;
+    margin: 40px;
+}
+.entrar:hover{
+    background-color:rgb(60, 61, 105);
+}
+
+.cadastro{
+    display: block;
+    text-decoration: none;
+    color:#000;
+}
+
+.cadastro:hover{
+    color:rgb(103, 105, 223);
+    font-size: 20px;
+}
+
+.links{
+    position:relative; top:-60px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.links a{
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px;
+    color: rgb(103, 105, 223);
+}
+
+.links a:hover{
+    background-color:rgb(85, 85, 231);
+    color: white;
+    text-decoration: none;
+    text-decoration-color:black;
+    
+}
+
+h1{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 400;
+    color: rgb(117, 117, 238);
+}
+
+h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.mapa{
+    margin-top: 50px;
+    display: grid;
+    place-items: grid;
+}
+
+.mapa p{
+    font-size: 12px;
+}
+
+.acessos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.acessos h2{
+    color:rgb(117, 117, 238);
+    margin-bottom: 30px;
+}
+
+.acessos h3{
+    font-weight: 400;
+    color: #190d9e;
+}
+
+
+.acessos p{
+    padding: 10px;
+}
+
+
+
+.conteudo {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    margin-top: 80px;
+    background-color: #6057CD;
+    padding: 70px 0;
+}
+
+.footer-cont {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-cont h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-cont h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #808080;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-cont ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-cont ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-cont ul li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+
+.footer-cont ul li a:hover {
+    color: #808080;
+    padding-left: 10px;
+}
+
+.footer-cont .redes_sociais a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-cont .redes_sociais .facebook:hover {
+    color: #24262b;
+    background-color: #1E90FF;
+}
+
+.footer-cont .redes_sociais .twitter:hover {
+    color: #24262b;
+    background-color: #00BFFF;
+}
+
+.footer-cont .redes_sociais .instagram:hover {
+    color: #24262b;
+    background-color: #C13584;
+}
+
+.footer-cont .redes_sociais .youtube:hover {
+    color: #24262b;
+    background-color: #c4302b;
+}
+
+
+/* Desenvolvedor Davi Costa */
