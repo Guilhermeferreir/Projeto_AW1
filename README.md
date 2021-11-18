@@ -20,6 +20,8 @@
 | 25/10/2021 |        Criação da Galeria de fotos e vídeos   | xxxxx   |    
 | 25/10/2021 |      Atualização dos Wireframes      | xxxx 
 | 26/10/2021 | Atualização da tela de livros publicados | xxxx |
+|            |    4 Bimestre                                  | 
+|18/11/2021  | Desenvolvimento da tela Como Chegar         |xxxxxxxxx|
 
 
 
