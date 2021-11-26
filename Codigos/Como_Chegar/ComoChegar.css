@@ -147,7 +147,7 @@ h2{
 .mapa{
     margin-top: 50px;
     display: grid;
-    place-items: grid;
+    place-items: center;
 }
 
 .mapa p{
