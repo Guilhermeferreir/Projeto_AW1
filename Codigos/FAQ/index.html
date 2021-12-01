@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+  <head>
+    <meta charset="UTF-8">
+    <title> Perguntas Frequentes </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="accordion">
+    <div class="image-box">
+      <img src="images/mainImg.png" alt="">
+    </div>
+    <div class="accordion-text">
+      <div class="title">Perguntas Frequentes</div>
+    <ul class="faq-text">
+      <li>
+        <div class="question-arrow">
+          <span class="question">Posso entrar com água e alimentos na biblioteca?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Não. Alimentos e bebidas não são permitidos no interior da biblioteca.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Qual o horário de funcionamento?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Segunda a Sexta-feira, das 10h as 18h, para visitas.
+           Aberta aos sábados para pesquisa e leitura de obras.
+        </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Até qual horário posso realizar devoluções?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>As devoluções de obras devem ser feitas até 10 minutos antes do fechamento. </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Como pesquisar obras na BN?</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Realize no prédio sede, no segundo andar, das 9 às 20h durante a semana, no sábado a consulta pode ser feita das 10h às 16h. </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Facilidades para a visita</span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Apresenta Wi-Fi gratuito, para utilizar solicite a senha aos funcionários;<br>
+          O prédio possui acessibilidade para deficientes físicos e um serviço para auxiliar deficientes visuais e idosos;<br>
+          Há bebedouros em todos os pavimentos e tomadas no salões de leitura.
+        </p>
+        <span class="line"></span>
+      </li>
+    </ul>
+    </div>
+  </div>
+
+
+  <script>
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer");
+      });
+    }
+  </script>
+
+</body>
+</html>
